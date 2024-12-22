@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+}
+
+header {
+    background-image: url(../images/shutterstock_166601417.jpg);
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    height: 100vh;
+}
+
+.inner h1 {
+
+    font-size: 70px;
+}
+
+.inner p {
+    font-size: 21px;
+}
+
+.inner .btn {
+    padding: 15px 30px;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-item .btn {
+    padding: 10px 20px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.icon i {
+    color: rgb(211, 37, 37);
+    font-size: 30px;
+}
+
+/* .nav-item a{
+    color: red !important;
+} */
+.square {
+    /* background-color: rgb(243, 235, 235); */
+}
+
+.iconDiv {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconDiv i{
+   font-size: 25px;
+}
+.cationDiv{
+    margin-left: 15px;
+}
+.dangerSection p{
+    color: rgba(255, 255, 255, .92);
+  
+
+}
+.trophy i{
+  font-size: 40px;
+}
+.testimonials i{
+    font-size: 40px;
+    
+}
+.tesP{
+    position: relative;
+}
+.tesP::before{
+    content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+  background-color: #f8f8f8;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent  transparent #f8f8f8 transparent    ;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 10%;
+
+}
+.carousel button{
+width: 20px;
+/* background-color: blue; */
+}
+.owl-nav > div {
+    text-indent: -9999px;
+    height: 32px;
+    width: 32px;
+    background: rgb(223, 220, 220);
+    border: 2px solid rgba(185, 66, 66, 0.15);
+    color: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    display: inline-block;
+    transition: all .3s;
+    position: relative;
+    line-height: 32px;
+}
+.carousel-control-prev-icon {
+    background-color: transparent; /* Optional: Transparent background */
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23FFFFFF" viewBox="0 0 16 16"%3E%3Cpath fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/%3E%3C/svg%3E');
+    /* Replace %23FFFFFF with the desired color in hex (e.g., red: %23FF0000) */
+  }
+  .owl-prev:hover{
+    background-color: rgb(211, 37, 37);
+  } 
+  .Feeling{
+    background-image: url(../images/cut.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 80vh;
+  }
+.Feeling button{
+    padding: 20px 30px;
+}
+.footerIcon .line {
+    background-color: gray;
+    width: 100%;
+    height: 1px;
+}
+.lastFooterSection{
+    background-color: black;
+}
+.iconDivF{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    color: grey;
+   
+}
+.iconDivF i:hover{
+    color: blue;
+}
+.iconDivF i{
+    font-size: 20px;
+}
+.btnIcon{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 99999999999;
+    background-color: gray;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+}
+.btnIcon:hover{
+    cursor: pointer;
+}
